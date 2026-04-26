@@ -39,5 +39,5 @@ def crawl(url, base):
 crawl("https://www.autoguarizione.it", "autoguarizione.it")
 
 import json
-with open("chunks.json","w",encoding="utf-8") as f:
+with open("data.json","w",encoding="utf-8") as f:
     json.dump(chunks,f)
